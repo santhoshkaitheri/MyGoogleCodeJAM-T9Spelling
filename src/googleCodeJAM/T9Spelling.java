@@ -1,3 +1,7 @@
+/** T9 Spelling Problem - Google Code JAM Africa Qualification 2010
+    Author - Santhosh Kaitheri
+*/	
+
 package googleCodeJAM;
 
 import java.io.BufferedReader;
@@ -14,10 +18,10 @@ public class T9Spelling
 {
 	public static void main(String... args) throws IOException
 	{
-		File file = new File("F:\\PROJECTS\\GOOGLE-CODE-JAM\\T9Spelling\\C-small-practice.in");
-		File outFile = new File("F:\\PROJECTS\\GOOGLE-CODE-JAM\\T9Spelling\\C-small-practice.out");
-		//File file = new File("F:\\PROJECTS\\GOOGLE-CODE-JAM\\T9Spelling\\C-large-practice.in");
-		//File outFile = new File("F:\\PROJECTS\\GOOGLE-CODE-JAM\\T9Spelling\\C-large-practice.out");
+		File file = new File("input\\C-small-practice.in");
+		File outFile = new File("input\\C-small-practice.out");
+		//File file = new File("input\\C-large-practice.in");
+		//File outFile = new File("input\\C-large-practice.out");
 		BufferedReader br = new BufferedReader(new FileReader(file));
 		BufferedWriter bw = new BufferedWriter(new FileWriter(outFile));
 		printDigitKeys(br, bw);
